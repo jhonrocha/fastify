@@ -5,7 +5,7 @@
  * - the goal is to provide the minimum viable type definitions necessary to use fastify's official logger, pino.
  * - the types provided should cover the basic use cases for the majority of fastify users while also being easy to maintain.
  * - for advanced use cases needing the full set of types, users should be directed to manually install the unofficial types with
- *   `npm i -D @types/pino` and to supply their own logger instance as described at https://www.fastify.io/docs/latest/Logging/.
+ *   `npm i -D @types/pino` and to supply their own logger instance as described at https://www.fastify.io/docs/latest/Reference/Logging/.
  * - some fastify contributors have volunteered to maintain official types within pino (https://github.com/pinojs/pino/issues/910)
  *   in which case if the proposal is followed through with then in the future fastify will be able to directly import the full
  *   set of types rather than only duplicating and maintaining the subset chosen for providing a minimum viable logger api.

@@ -224,18 +224,18 @@ hyperlink should look:
 <!-- More like this -->
 
 // Add clear & brief description
-[Fastify Plugins] (https://www.fastify.io/docs/latest/Plugins/)
+[Fastify Plugins] (https://www.fastify.io/docs/latest/Reference/Plugins/)
 
 <!--Less like this -->
 
 // incomplete description
-[Fastify] (https://www.fastify.io/docs/latest/Plugins/)
+[Fastify] (https://www.fastify.io/docs/latest/Reference/Plugins/)
 
 // Adding title in link brackets
-[](https://www.fastify.io/docs/latest/Plugins/ "fastify plugin")
+[](https://www.fastify.io/docs/latest/Reference/Plugins/ "fastify plugin")
 
 // Empty title
-[](https://www.fastify.io/docs/latest/Plugins/)
+[](https://www.fastify.io/docs/latest/Reference/Plugins/)
 
 // Adding links localhost URLs instead of using code strings (``)
 [http://localhost:3000/](http://localhost:3000/)
